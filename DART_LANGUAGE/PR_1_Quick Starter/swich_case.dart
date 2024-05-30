@@ -17,7 +17,7 @@ void main()
     print("3. Sum of specific column");
     print("4. Sum of diagonal elements");
     print("5. Sum of anti-diagonal elements");
-    print("0. Exit");
+    print("6. Exit");
 
     stdout.write("\nenter your choice: ");
     int choice = int.parse(stdin.readLineSync()!);
@@ -76,6 +76,12 @@ void main()
         }
         print("Sum of anti-diagonal elements: $sum");
         break;
+
+       case 6:
+      {
+        print("exit successfully");
+        return;
+      }
 
       default:
         print("Invalid choice...");
