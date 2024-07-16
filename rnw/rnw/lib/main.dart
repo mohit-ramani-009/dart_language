@@ -6,138 +6,278 @@ void main() {
     home: Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        backgroundColor: Color(0xffFF5252),
-        title: const Text("Red &amp; White"),
+        backgroundColor: Colors.redAccent,
         centerTitle: true,
+        title: Text("Red & White"),
+        titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 26,
+            fontWeight: FontWeight.bold
+        ),
       ),
-      body: const Center(
-        child: Text.rich(TextSpan(
-            style: TextStyle(height: 1.9, letterSpacing: 4.1, fontSize: 28),
+      body: Center(
+        child: Text.rich(
+          TextSpan(
             children: [
               TextSpan(
-                  text: "\t\t\t\t\t\t\t\t\t\t\t\t",
-                  style: TextStyle(
-                      color: Colors.green, fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\t\t\t\t\tG",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.green,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+
               TextSpan(
-                  text: "R",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "R",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+
               TextSpan(
-                  text: "APHICS\n",
-                  style: TextStyle(
-                      color: Colors.green, fontWeight: FontWeight.bold)),
+                text: "APHICS\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.green,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+
               TextSpan(
-                  text: "\t\t\t\t\tFLUTT",
-                  style: TextStyle(
-                      color: Colors.blue, fontWeight: FontWeight.bold)),
+                text: "\t\t\tFLUTT",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.blue,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "E",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "E",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "R\n",
-                  style: TextStyle(
-                      color: Colors.blue, fontWeight: FontWeight.bold)),
+                text: "R\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.blue,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  // fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "\t\t\t\t\t\t\t\t\t\tAN",
-                  style: TextStyle(
-                      color: Colors.green, fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\t\t\tAN",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.green,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "D",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "D",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "ROID\n",
-                  style: TextStyle(
-                      color: Colors.green, fontWeight: FontWeight.bold)),
+                text: "ROID\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.green,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "\t\tDESIGN",
-                  style: TextStyle(
-                      color: Color(0xffC89705), fontWeight: FontWeight.bold)),
+                text: "DESIGN",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.amber,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: " &amp; ",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "\t&\t",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "DEVELOP\n",
-                  style: TextStyle(
-                      color: Color(0xffC89705), fontWeight: FontWeight.bold)),
+                text: "DEVELOP\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.amber,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: " \t\t\t\t\t\t\tW",
-                  style: TextStyle(
-                      letterSpacing: 4.4,
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\t\t\t\t W",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "EB\n",
-                  style: TextStyle(
-                      color: Colors.blue, fontWeight: FontWeight.bold)),
+                text: "EB\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.blue,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: " \t\t\t\t\tFAS",
-                  style: TextStyle(
-                      letterSpacing: 4.4,
-                      fontSize: 28,
-                      color: Colors.yellow,
-                      fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\t\tFAS",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.yellowAccent,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "H",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "H",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "ION\n",
-                  style: TextStyle(
-                      color: Colors.yellow, fontWeight: FontWeight.bold)),
+                text: "ION\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.yellowAccent,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: " \t\tANIMAT",
-                  style: TextStyle(
-                      color: Colors.teal, fontWeight: FontWeight.bold)),
+                text: "\t\tANIMAT",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.teal,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "I",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "I",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "ON\n",
-                  style: TextStyle(
-                      color: Colors.teal, fontWeight: FontWeight.bold)),
+                text: "ON\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.teal,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "\t\t\t\t\t\t\t\t\t\t\t\t\tI",
-                  style: TextStyle(
-                      color: Colors.blue, fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\t\t\t\t\t\tI",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.blue,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "T",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
+                text: "T",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "A-CS+\n",
-                  style: TextStyle(
-                      color: Colors.blue, fontWeight: FontWeight.bold)),
+                text: "A-CS+\n\n",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.blue,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: " \t\t\t\tGAM",
-                  style: TextStyle(
-                      color: Color(0xffC89705), fontWeight: FontWeight.bold)),
+                text: "\t\t\t\t\t\tGAM",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.amber,
+                  fontSize: 30,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               TextSpan(
-                  text: "E",
-                  style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
-            ])),
+                text: "E",
+                style: TextStyle(
+                  height: 1,
+                  color: Colors.red,
+                  fontSize: 40,
+                  letterSpacing: 6,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+
+            ],
+          ),
+        ),
       ),
-    ),
-  ));
+    ),
+  ),
+  );
 }
